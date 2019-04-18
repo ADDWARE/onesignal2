@@ -187,7 +187,7 @@ public class OneSignalPush extends CordovaPlugin {
     }
     else if (REGISTER_FOR_PUSH_NOTIFICATIONS.equals(action)) {
       // Does not apply to Android.
-      result = true;
+      result = false;
     }
     else if (ENABLE_VIBRATE.equals(action)) {
       try {
