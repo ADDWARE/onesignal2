@@ -114,7 +114,7 @@ static bool location_event_fired;
 }
 
 - (id)initWithLaunchOptions:(NSDictionary*)launchOptions {
-    return [self initWithLaunchOptions:launchOptions appId:nil handleNotification:nil autoRegister:false];
+    return [self initWithLaunchOptions:launchOptions appId:nil handleNotification:nil autoRegister:true];
 }
 
 - (id)initWithLaunchOptions:(NSDictionary*)launchOptions autoRegister:(BOOL)autoRegister {
